@@ -1,0 +1,25 @@
+/* used so cms can be used on small devices */
+@media only screen and (max-width: 750px) {
+    .width {
+        max-width: 600px;
+    }
+
+    #headline {
+        width: 70%;
+    }
+
+    .textarea_input {
+        width: 70%;
+        height: 12rem;
+    }
+
+    .editor_btn {
+        padding: 5px;
+        margin: 5px;
+        margin-top: 2rem;
+    }
+
+    .editor_btn:nth-child(3) {
+        padding: 1.05rem 5px;
+    }
+}

@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <link rel="stylesheet" href="/dist/css/utility.css" />
+    <link rel="stylesheet" href="/dist/css/header.css" />
+    <link rel="stylesheet" href="/dist/css/section-shop.css" />
+    <link rel="stylesheet" href="/dist/css/contact.css" />
+    <link rel="stylesheet" href="/dist/css/responsive.css" />
+
+    <!-- 3rd party links -->
+    <link rel="stylesheet" href="/dist/css/slick.css" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    />
+    <title>MockUp</title>
+  </head>
+  <body>
+    <!-- Navigation -->
+    <nav>
+      <div class="nav_container">
+        <div class="nav_logo_container">
+          <a href="#home" class="scroll">
+            <img
+              class="nav_logo"
+              src="/dist/Images/logo.png"
+              alt="company logo"
+            />
+          </a>
+        </div>
+        <div>
+          <ul class="nav_contact-us">
+            <li>
+              <a href="#contact-us" class="nav_btn btn scroll">Contact Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header id="home">
+      <div class="header_container">
+        <h1 class="cms-header-h1">Headline</h1>
+        <p class="cms-header-p">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+          eiusmod <br />
+          tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+          veniam.
+        </p>
+        <a href="#shop" class="header_btn btn scroll">Learn More</a>
+      </div>
+    </header>
+
+    <!-- Shop Carousel Section -->
+    <section id="shop">
+      <div class="shop_container">
+        <div class="shop_heading">
+          <h2>Shop</h2>
+          <p class="cms-shop-p">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor <br />
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+            veniam.
+          </p>
+        </div>
+        <div class="shop_slider-container multiple-items">
+          <div class="item">
+            <div class="image-1"></div>
+            <div class="product_container">
+              <h4>Product Title</h4>
+              <h4>$100</h4>
+            </div>
+            <p>Product Caption or description here</p>
+          </div>
+
+          <div class="item">
+            <div class="image-2">
+              <div class="new-tag">
+                <h3>NEW</h3>
+              </div>
+            </div>
+            <div class="product_container">
+              <h4>Product Title</h4>
+              <h4>$100</h4>
+            </div>
+            <p>Product Caption or description here</p>
+          </div>
+
+          <div class="item">
+            <div class="image-3"></div>
+            <div class="product_container">
+              <h4>Product Title</h4>
+              <h4>$100</h4>
+            </div>
+            <p>Product Caption or description here</p>
+          </div>
+
+          <div class="item">
+            <div class="image-4"></div>
+            <div class="product_container">
+              <h4>Product Title</h4>
+              <h4>$100</h4>
+            </div>
+            <p>Product Caption or description here</p>
+          </div>
+
+          <div class="item">
+            <div class="image-5"></div>
+            <div class="product_container">
+              <h4>Product Title</h4>
+              <h4>$100</h4>
+            </div>
+            <p>Product Caption or description here</p>
+          </div>
+        </div>
+        <!-- remember to make cursor: pointer -->
+        <div class="arrows">
+          <div class="left-arrow">
+            <i class="fal fa-arrow-left fa-5x"></i>
+          </div>
+
+          <div class="right-arrow">
+            <i class="fal fa-arrow-right fa-5x"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact-us">
+      <div class="contact_container">
+        <div class="contact_heading">
+          <div class="contact_heading-h2">
+            <h2>Contact Us</h2>
+          </div>
+          <div class="contact_heading-p">
+            <p class="cms-contact-p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor <br />
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+              veniam.
+            </p>
+          </div>
+        </div>
+        <div class="contact_information-container">
+          <div class="contact_adresses">
+            <div class="contact_location">
+              <h4>Where to Find Us</h4>
+              <p>5555 Street Name</p>
+              <p>Dallas, Texas 75205</p>
+            </div>
+            <div class="contact_email">
+              <h4>Email</h4>
+              <p>info@domain.com</p>
+            </div>
+          </div>
+          <!-- contact form that -->
+          <div class="contact_form">
+            <!-- Sends mail to Vichi -->
+            <form id="contact-form" method="POST" name="contact-form">
+              <input
+                type="text"
+                id="name"
+                for="name"
+                name="name"
+                placeholder="Name"
+                class="form-control"
+                required
+              />
+              <input
+                type="email"
+                id="email"
+                for="Email"
+                name="email"
+                class="form-control"
+                placeholder="Email Address *"
+                required
+              />
+              <textarea
+                type="text"
+                for="message"
+                id="message"
+                name="message"
+                class="form-control"
+                placeholder="Message"
+                required
+              ></textarea>
+            </form>
+            <button
+              type="button"
+              form="contact-form"
+              class="contact_btn btn"
+              onclick="sendEmail()"
+            >
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+      <div class="footer-container">
+        <p>Website Copyright Attributions</p>
+      </div>
+    </footer>
+  </body>
+
+  <!-- Scripts -->
+  <script src="/dist/js/email.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="dist/js/slick.js"></script>
+  <script src="dist/js/slick-arrows.js"></script>
+  <script src="/dist/js/smooth.js"></script>
+  <script src="/dist/js/cms-index_html.js"></script>
+</html>

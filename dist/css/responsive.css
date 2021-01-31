@@ -1,0 +1,136 @@
+/* Laptops */
+
+@media only screen and (max-width: 1549px) {
+	:root {
+		--web-width: 1300px;
+	}
+	.contact_information-container .contact_form button {
+		width: 45%;
+	}
+}
+
+/* Touch up for devices inbetween laptops and ipads */
+@media only screen and (max-width: 1350px) {
+	:root {
+		--web-width: 1100px;
+	}
+	.contact_information-container .contact_form button {
+		width: 50%;
+	}
+}
+
+/* ipads */
+@media only screen and (max-width: 1150px) {
+	:root {
+		--web-width: 900px;
+	}
+
+	/* shop section*/
+	.shop_heading {
+		flex-direction: column;
+		text-align: center;
+	}
+	.shop_container .shop_heading h2 {
+		padding: 0;
+	}
+	.shop_container .shop_heading p {
+		padding: 0;
+	}
+
+	.arrows {
+		display: none;
+	}
+
+	/* contact section */
+	.contact_heading {
+		flex-direction: column;
+		text-align: center;
+	}
+	.contact_information-container {
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	.contact_email {
+		padding-bottom: 4rem;
+	}
+
+	.contact_information-container .contact_form button {
+		width: 60%;
+		margin: 4rem auto 10rem auto;
+	}
+}
+
+/* The below queires are for devices within smaller screens */
+@media only screen and (max-width: 950px) {
+	:root {
+		--web-width: 750px;
+	}
+
+	/* navigation section */
+	.nav_logo {
+		width: unset;
+	}
+	/* contact section */
+	.contact_information-container .contact_form button {
+		width: 75%;
+		margin: 4rem auto 10rem auto;
+	}
+}
+
+@media only screen and (max-width: 760px) {
+	:root {
+		--web-width: 600px;
+	}
+
+	/* utility */
+	h2 {
+		font-size: 7rem;
+	}
+
+	/* nav */
+	.nav_container {
+		flex-direction: column;
+		padding: 7rem 0rem;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.nav_btn {
+		padding: 1.8rem 3.5rem;
+		font-size: 1.8rem;
+	}
+	/* heading */
+	.header_container {
+		padding-bottom: unset;
+	}
+
+	.header_container h1 {
+		font-size: 7rem;
+	}
+
+	.header_container .header_btn {
+		padding: 2.25rem 6rem;
+	}
+
+	/* shop */
+	.shop_container .shop_heading h2 {
+		padding-bottom: 2rem;
+	}
+	.shop_slider-container .item div[class^="image"] {
+		height: 40rem;
+	}
+
+	/* contact */
+
+	.contact_information-container .contact_form button {
+		width: unset;
+	}
+}
+
+@media only screen and (max-width: 420px) {
+	:root {
+		--web-width: 300px;
+	}
+}
