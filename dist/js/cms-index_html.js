@@ -6,15 +6,14 @@ let contactDefaultsP = document.querySelector(".cms-contact-p").textContent;
 // Takes in the object sent from cms-cms_html.js to apply it here
 const defaults = JSON.parse(localStorage.getItem("defaultsObj"));
 
-
 // stores the values within the header and p tags into local storage only when
 // ?admin is added into the url.
 if (window.location.href.indexOf("admin") != -1) {
-	localStorage.setItem("headerH2", headerDefaultsH1);
-	localStorage.setItem("headerP", headerDefaultsP);
-	localStorage.setItem("shopP", shopDefaultsP);
-	localStorage.setItem("contactP", contactDefaultsP);
-	location.replace("cms.html");
+  localStorage.setItem("headerH2", headerDefaultsH1);
+  localStorage.setItem("headerP", headerDefaultsP);
+  localStorage.setItem("shopP", shopDefaultsP);
+  localStorage.setItem("contactP", contactDefaultsP);
+  location.replace("cms.html");
 }
 setTextContent();
 

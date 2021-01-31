@@ -52,32 +52,32 @@ p {
 /* Implemented fonts */
 @font-face {
   font-family: "Helvetica_bold";
-  src: url("dist/Fonts/HelveticaNeueLTStd-Bd.eot");
-  src: url("dist/Fonts/HelveticaNeueLTStd-Bd.woff") format("woff"),
-    url("dist/Fonts/HelveticaNeueLTStd-Bd.otf") format("opentype"),
-    url("dist/Fonts/HelveticaNeueLTStd-Bd.svg") format("svg");
+  src: url("../Fonts/HelveticaNeueLTStd-Bd.eot");
+  src: url("../Fonts/HelveticaNeueLTStd-Bd.woff") format("woff"),
+    url("../Fonts/HelveticaNeueLTStd-Bd.otf") format("opentype"),
+    url("../Fonts/HelveticaNeueLTStd-Bd.svg") format("svg");
 }
 
 @font-face {
   font-family: "Helvetica_bold-italic";
-  src: url("dist/Fonts/HelveticaNeueLTStd-BdIt.eot");
-  src: url("dist/Fonts/HelveticaNeueLTStd-BdIt.woff") format("woff"),
-    url("dist/Fonts/HelveticaNeueLTStd-BdIt.otf") format("opentype"),
-    url("dist/Fonts/HelveticaNeueLTStd-BdIt.svg") format("svg");
+  src: url("../Fonts/HelveticaNeueLTStd-BdIt.eot");
+  src: url("../Fonts/HelveticaNeueLTStd-BdIt.woff") format("woff"),
+    url("../Fonts/HelveticaNeueLTStd-BdIt.otf") format("opentype"),
+    url("../Fonts/HelveticaNeueLTStd-BdIt.svg") format("svg");
 }
 
 @font-face {
   font-family: "Helvetica_italic";
-  src: url("dist/Fonts/HelveticaNeueLTStd-It.eot");
-  src: url("dist/Fonts/HelveticaNeueLTStd-It.woff") format("woff"),
-    url("dist/Fonts/HelveticaNeueLTStd-It.otf") format("opentype"),
-    url("dist/Fonts/HelveticaNeueLTStd-It.svg") format("svg");
+  src: url("../Fonts/HelveticaNeueLTStd-It.eot");
+  src: url("../Fonts/HelveticaNeueLTStd-It.woff") format("woff"),
+    url("../Fonts/HelveticaNeueLTStd-It.otf") format("opentype"),
+    url("../Fonts/HelveticaNeueLTStd-It.svg") format("svg");
 }
 
 @font-face {
   font-family: "Helvetica_roman";
-  src: url("dist/Fonts/HelveticaNeueLTStd-Roman.eot");
-  src: url("dist/Fonts/HelveticaNeueLTStd-Roman.woff") format("woff"),
-    url("dist/Fonts/HelveticaNeueLTStd-Roman.otf") format("opentype"),
-    url("dist/Fonts/HelveticaNeueLTStd-Roman.svg") format("svg");
+  src: url("../Fonts/HelveticaNeueLTStd-Roman.eot");
+  src: url("../Fonts/HelveticaNeueLTStd-Roman.woff") format("woff"),
+    url("../Fonts/HelveticaNeueLTStd-Roman.otf") format("opentype"),
+    url("../Fonts/HelveticaNeueLTStd-Roman.svg") format("svg");
 }
