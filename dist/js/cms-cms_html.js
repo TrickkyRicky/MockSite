@@ -35,6 +35,7 @@ function submit() {
   localStorage.setItem("shopP", newShopP);
   localStorage.setItem("contactP", newContactP);
   updateDefaults();
+  localStorage.setItem("token", 1);
   localStorage.setItem("defaultsObj", JSON.stringify(defaults));
   window.location.assign("index.html");
 }
