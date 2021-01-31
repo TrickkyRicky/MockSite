@@ -1,83 +1,83 @@
 /* variables */
 :root {
-	--btn_font-size: 2rem;
-	--heading_font-size: 7rem;
-	--dark_color: #000;
-	--light_color: #fff;
-	--web-width: 1450px;
+  --btn_font-size: 2rem;
+  --heading_font-size: 7rem;
+  --dark_color: #000;
+  --light_color: #fff;
+  --web-width: 1450px;
 }
 
 /* Reset */
 * {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 html {
-	/* 1rem = 16px/10px = .625 * 100% */
-	font-size: 62.5%;
+  /* 1rem = 16px/10px = .625 * 100% */
+  font-size: 62.5%;
 }
 
 body {
-	font-family: "Helvetica_roman", sans-serif, serif;
+  font-family: "Helvetica_roman", sans-serif, serif;
 }
 
 h2 {
-	font-size: 8rem;
-	font-family: "Helvetica_bold";
+  font-size: 8rem;
+  font-family: "Helvetica_bold";
 }
 
 h4 {
-	font-family: "Helvetica_bold";
-	font-size: 2.05rem;
+  font-family: "Helvetica_bold";
+  font-size: 2.05rem;
 }
 
 p {
-	font-family: "Helvetica_roman";
-	font-size: 2rem;
-	font-weight: 100;
+  font-family: "Helvetica_roman";
+  font-size: 2rem;
+  font-weight: 100;
 }
 
 .btn {
-	font-family: "Helvetica_bold";
-	text-decoration: none;
-	cursor: pointer;
-	display: block;
-	border-radius: 50rem;
-	font-size: var(--btn_font-size);
-	outline: none;
+  font-family: "Helvetica_bold";
+  text-decoration: none;
+  cursor: pointer;
+  display: block;
+  border-radius: 50rem;
+  font-size: var(--btn_font-size);
+  outline: none;
 }
 
 /* Implemented fonts */
 @font-face {
-	font-family: "Helvetica_bold";
-	src: url("/dist/Fonts/HelveticaNeueLTStd-Bd.eot");
-	src: url("/dist/Fonts/HelveticaNeueLTStd-Bd.woff") format("woff"),
-		url("/dist/Fonts/HelveticaNeueLTStd-Bd.otf") format("opentype"),
-		url("/dist/Fonts/HelveticaNeueLTStd-Bd.svg") format("svg");
+  font-family: "Helvetica_bold";
+  src: url("dist/Fonts/HelveticaNeueLTStd-Bd.eot");
+  src: url("dist/Fonts/HelveticaNeueLTStd-Bd.woff") format("woff"),
+    url("dist/Fonts/HelveticaNeueLTStd-Bd.otf") format("opentype"),
+    url("dist/Fonts/HelveticaNeueLTStd-Bd.svg") format("svg");
 }
 
 @font-face {
-	font-family: "Helvetica_bold-italic";
-	src: url("/dist/Fonts/HelveticaNeueLTStd-BdIt.eot");
-	src: url("/dist/Fonts/HelveticaNeueLTStd-BdIt.woff") format("woff"),
-		url("/dist/Fonts/HelveticaNeueLTStd-BdIt.otf") format("opentype"),
-		url("/dist/Fonts/HelveticaNeueLTStd-BdIt.svg") format("svg");
+  font-family: "Helvetica_bold-italic";
+  src: url("dist/Fonts/HelveticaNeueLTStd-BdIt.eot");
+  src: url("dist/Fonts/HelveticaNeueLTStd-BdIt.woff") format("woff"),
+    url("dist/Fonts/HelveticaNeueLTStd-BdIt.otf") format("opentype"),
+    url("dist/Fonts/HelveticaNeueLTStd-BdIt.svg") format("svg");
 }
 
 @font-face {
-	font-family: "Helvetica_italic";
-	src: url("/dist/Fonts/HelveticaNeueLTStd-It.eot");
-	src: url("/dist/Fonts/HelveticaNeueLTStd-It.woff") format("woff"),
-		url("/dist/Fonts/HelveticaNeueLTStd-It.otf") format("opentype"),
-		url("/dist/Fonts/HelveticaNeueLTStd-It.svg") format("svg");
+  font-family: "Helvetica_italic";
+  src: url("dist/Fonts/HelveticaNeueLTStd-It.eot");
+  src: url("dist/Fonts/HelveticaNeueLTStd-It.woff") format("woff"),
+    url("dist/Fonts/HelveticaNeueLTStd-It.otf") format("opentype"),
+    url("dist/Fonts/HelveticaNeueLTStd-It.svg") format("svg");
 }
 
 @font-face {
-	font-family: "Helvetica_roman";
-	src: url("/dist/Fonts/HelveticaNeueLTStd-Roman.eot");
-	src: url("/dist/Fonts/HelveticaNeueLTStd-Roman.woff") format("woff"),
-		url("/dist/Fonts/HelveticaNeueLTStd-Roman.otf") format("opentype"),
-		url("/dist/Fonts/HelveticaNeueLTStd-Roman.svg") format("svg");
+  font-family: "Helvetica_roman";
+  src: url("dist/Fonts/HelveticaNeueLTStd-Roman.eot");
+  src: url("dist/Fonts/HelveticaNeueLTStd-Roman.woff") format("woff"),
+    url("dist/Fonts/HelveticaNeueLTStd-Roman.otf") format("opentype"),
+    url("dist/Fonts/HelveticaNeueLTStd-Roman.svg") format("svg");
 }
