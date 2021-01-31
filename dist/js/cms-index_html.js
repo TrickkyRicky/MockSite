@@ -9,13 +9,14 @@ const defaults = JSON.parse(localStorage.getItem("defaultsObj"));
 // stores the values within the header and p tags into local storage only when
 // ?admin is added into the url.
 if (window.location.href.indexOf("admin") != -1) {
+  setTextContent();
   localStorage.setItem("headerH2", headerDefaultsH1);
   localStorage.setItem("headerP", headerDefaultsP);
   localStorage.setItem("shopP", shopDefaultsP);
   localStorage.setItem("contactP", contactDefaultsP);
   location.replace("cms.html");
 }
-setTextContent();
+//setTextContent();
 
 // This statement checks if any of the values from the the cms have changed from the default before it
 // changes them in the website.
